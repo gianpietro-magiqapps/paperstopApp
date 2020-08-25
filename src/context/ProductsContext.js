@@ -116,7 +116,6 @@ const editProduct = (dispatch) => async (id, productObject, callback) => {
 };
 
 const uploadResized = async (image) => {
-  // Update Product Image in WP
   const auth = base64.encode(
     `${WooApi.keys.WP_USERNAME}:${WooApi.keys.WP_PASSWORD}`
   );
